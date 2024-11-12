@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#text {
+    width: 80%;
+    margin: 0 auto;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#images-box {
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 15px; /* Отступы по бокам и сверху/снизу */
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+    display: grid;
+    gap: 15px; /* Расстояние между изображениями */
+    grid-template-columns: repeat(3, 1fr); /* Три колонки для больших экранов */
+}
+
+.images {
+    width: 100%; /* Заполняет всю ячейку */
+}
+
+/* media */
+/* Адаптация для планшетов */
+@media (max-width: 768px) {
+    #images-box {
+        grid-template-columns: repeat(2, 1fr); /* Две колонки */
+    }
+}
+
+/* Адаптация для телефонов */
+@media (max-width: 480px) {
+    #images-box {
+        grid-template-columns: 1fr; /* Одна колонка */
+    }
+}
