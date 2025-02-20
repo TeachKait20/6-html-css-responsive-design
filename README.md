@@ -1,4 +1,4 @@
-# 6-html-css-responsive-design 
+# 6-html-css-responsive-design
 ## Адаптивный дизайн
 
 <img src="https://github.com/TeachKait20/NoneCode/blob/main/for+blog/adaptiv.gif?raw=true" width=400>
